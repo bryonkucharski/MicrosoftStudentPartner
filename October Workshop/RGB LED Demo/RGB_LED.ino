@@ -12,7 +12,7 @@ int blueLED = D2;           //assign green led to digital pin 2
 void setup() {
 
   pinMode(redLED, OUTPUT);  //set red led as output
-  pinMode(greenLED OUTPUT); //set green led as output
+  pinMode(greenLED, OUTPUT); //set green led as output
   pinMode(blueLED, OUTPUT); //let blue led as output
 }
 

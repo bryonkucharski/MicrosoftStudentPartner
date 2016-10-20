@@ -21,6 +21,10 @@ void setup() {
     pinMode(greenLED, OUTPUT);
     pinMode(blueLED, OUTPUT);
     
+
+    /*
+        Must have a webhook setup on particle account called "Boston_Temp"
+    */
    //Subscribe to events created on your account. In this case, we want a response from the Boston_Temp Webhook
    //myHandler function will be called when the webhook is called.
     Particle.subscribe("hook-response/Boston_Temp", myHandler, MY_DEVICES);
